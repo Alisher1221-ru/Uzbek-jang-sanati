@@ -1,0 +1,40 @@
+.grids{
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 0 5%;
+    transition: all 0.4s ease;
+}
+
+.gridItem{
+    margin: 0 auto;
+    max-width: 560px;
+    width:100%;
+    height: 315px;
+}
+
+@media screen and (max-width: 992px) {
+    .grids{
+        padding: 0 10px;
+    }
+    .gridItem{
+        height: 260px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .gridItem{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .grids{
+        grid-template-columns: auto;
+    }
+    .gridItem{
+        height: 310px;
+    }
+}
