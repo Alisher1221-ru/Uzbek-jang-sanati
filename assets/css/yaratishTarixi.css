@@ -1,0 +1,32 @@
+.topBoxs {
+  display: flex;
+}
+.topBoxs img {
+  height: 350px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.topBoxs div {
+  margin-left: 15px;
+  font-size: larger;
+  width: 50%;
+}
+.topBoxs div p:last-child {
+  margin-top: 10px;
+}
+.bottomboxs {
+  width: 100%;
+  margin-top: 20px;
+}
+.bottomboxs p {
+  color: rgb(34, 34, 34);
+}
+.uzbJangImg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}

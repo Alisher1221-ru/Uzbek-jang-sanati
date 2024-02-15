@@ -1,139 +1,140 @@
 /* //////komplekslar */
-.grids{
-    margin-top: 40px;
-    display:grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
-    padding: 0 5%;
-    transition: all 0.4s ease;
+.grids {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 0 5%;
+  transition: all 0.4s ease;
 }
-.gridItem{
-    margin: 0 auto;
-    max-width: 560px;
-    width:100%;
-    height: 315px;
+.gridItem {
+  margin: 0 auto;
+  max-width: 560px;
+  width: 100%;
+  height: 315px;
 }
 
 @media screen and (max-width: 1400px) {
-    .grids{
-        grid-template-columns: auto auto;
-    }
+  .grids {
+    grid-template-columns: auto auto;
+  }
 }
 @media screen and (max-width: 992px) {
-    .grids{
-        padding: 0 10px;
-    }
-    .gridItem{
-        height: 260px;
-    }
+  .grids {
+    padding: 0 10px;
+  }
+  .gridItem {
+    height: 260px;
+  }
 }
 @media screen and (max-width: 900px) {
-    .gridItem{
-        height: 240px;
-    }
+  .gridItem {
+    height: 240px;
+  }
 }
 @media screen and (max-width: 750px) {
-    .grids{
-        grid-template-columns: auto;
-    }
-    .gridItem{
-        height: 310px;
-    }
+  .grids {
+    grid-template-columns: auto;
+  }
+  .gridItem {
+    height: 310px;
+  }
 }
 @media screen and (max-width: 600px) {
-    .gridItem{
-        min-height: 250px;
-        height: 100%;
-    }
+  .gridItem {
+    min-height: 250px;
+    height: 100%;
+  }
 }
 /* ///////////// */
 
 /* //// Yangiliklar */
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 20px;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
-.flexItems{
-    display: flex;
-    justify-content: center;
-    border: 1px solid gray;
-    width: 100%;
-    height: 400px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 0 rgba(128, 128, 128, 0.4);
-    margin-bottom: 50px;
-    overflow: hidden;
+.flexItems {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 10px 10px 0 rgba(128, 128, 128, 0.4);
+  margin-bottom: 50px;
+  overflow: hidden;
 }
-.ifreame{
-    width: 50%;
-    height: 100%;
+.ifreame {
+  width: 50%;
+  height: 100%;
 }
-.ifreame video{
-    margin: auto auto;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.ifreame video {
+  margin: auto auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.flexItems div:last-child{
-    width: 50%;
-    padding: 20px 10px;
+.flexItems div:last-child {
+  width: 50%;
+  padding: 20px 10px;
 }
-.flexItems h1{
-    font-size: 28px;
-    margin-bottom: 20px;
+.flexItems h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
 }
-.flexItems p{
-    line-height: 22px;
+.flexItems p {
+  line-height: 22px;
 }
 @media screen and (max-width: 992px) {
-    .flexItems{
-        height: 320px;
-    }
-    .ifreame{
-        width: 60%;
-    }
-    .flexItems div:last-child{
-        width: 40%;
-    }
+  .flexItems {
+    height: 320px;
+  }
+  .ifreame {
+    width: 55%;
+  }
+  .flexItems div:last-child {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 900px) {
-    .flexItems{
-        height: 280px;
-    }
-    .flexItems h1{
-        font-size: 24px;
-    }
-    .flexItems p{
-        font-size: 13px;
-    }
+  .flexItems {
+    height: 280px;
+  }
+  .flexItems h1 {
+    font-size: 24px;
+  }
+  .flexItems p {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 750px) {
-    .flexItems{
-        height: 250px;
-    }
-    .flexItems h1{
-        font-size: 20px;
-    }
-    .flexItems p{
-        font-size: 12px;
-        line-height: 17px;
-    }
+  .flexItems {
+    height: 250px;
+  }
+  .flexItems h1 {
+    font-size: 20px;
+  }
+  .flexItems p {
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
 @media screen and (max-width: 750px) {
-    .flexItems{
-        flex-direction: column;
-        width: 80%;
-        height: auto;
-    }
-    .ifreame{
-        width: 100%;
-        height: 60%;
-    }
-    .flexItems div:last-child{
-        width: 100%;
-        height: 35%;
-    }
+  .flexItems {
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+  }
+  .ifreame {
+    width: 100%;
+    height: 60%;
+  }
+  .flexItems div:last-child {
+    width: 100%;
+    height: 35%;
+  }
 }
